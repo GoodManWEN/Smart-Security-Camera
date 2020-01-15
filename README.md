@@ -3,6 +3,10 @@ IoT Raspberry Pi security camera running open-cv for object detection. The camer
 
 [Watch the original video here](https://youtu.be/Y2QFu-tTvTI)
 
+## Differences
+
+This repository is different from the oringinal one, since it's modified to satisfy Python3 & Qmail for chinese users.
+
 ## Setup
 
 This project uses a Raspberry Pi Camera to stream video. Before running the code, make sure to configure the raspberry pi camera on your device.

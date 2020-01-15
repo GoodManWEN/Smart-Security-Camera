@@ -1,9 +1,16 @@
 <html>
   <head>
     <title>Raspberry Pi Security Feed</title>
+    <style>
+    	.mirrorRotateLevel {
+            transform: rotateY(180deg);   /* 水平镜像翻转 */
+            width: 800;
+            height: 600;
+        }
+    </style>
   </head>
   <body>
     <h1>Raspberry Pi Security Feed</h1>
-    <img id="bg" src="{{ url_for('video_feed') }}">
+    <img id="bg" class="mirrorRotateLevel" src="{{ url_for('video_feed') }}">
   </body>
 </html>
